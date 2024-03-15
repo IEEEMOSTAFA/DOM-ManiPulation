@@ -9,6 +9,7 @@
     <style>
       .fruits-container  li {
             color: yellowgreen;
+           
         }
         #fruits-title{
             color: black;
@@ -49,7 +50,7 @@
             </ul>
 
         </section>
-        <section>
+        <section id = "places-container" class="large-text">
             <h1 id ="places-title">Places, I like to Visit </h1>
 
             <ul>
@@ -89,7 +90,7 @@
         // option -3:: getElementsByclassName::
         const places = document.getElementsByClassName('important-places');
         for(const place of places){
-            console.log(place.innerText);
+            // console.log(place.innerText);
         }
     // option -4:  querySelector
 
@@ -100,7 +101,7 @@
        const someLi = document.querySelectorAll('.fruits-container li')
     //    console.log(someLi);
        for(const li of someLi){
-        console.log(li.innerText);
+        // console.log(li.innerText);
        }
 
     </script>
